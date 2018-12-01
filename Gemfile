@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gemspec
 
+gem 'dry-container', git: 'https://github.com/dry-rb/dry-container'
+
 group :test do
   platform :mri do
     gem "codeclimate-test-reporter", require: false
